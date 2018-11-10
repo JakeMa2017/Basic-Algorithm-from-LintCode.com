@@ -21,7 +21,6 @@ public class Solution {
    * @return: Level order a list of lists of integer
    */
   public List<List<Integer>> levelOrder(TreeNode root) {
-      // write your code here
       List<List<Integer>> result = new ArrayList<>();
       if (root == null) {
           return result;
