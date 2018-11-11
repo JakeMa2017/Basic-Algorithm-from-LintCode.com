@@ -25,5 +25,5 @@ Return:
 ```
 ---
 
-Can use either [DFS](https://github.com/JakeMa2017/Basic-Algorithm/tree/master/Divide%20and%20Conquer/376.Binary%20Tree%20Path%20Sum) or Divide and Conquer to solve this problem.
+Can use either [DFS](https://github.com/JakeMa2017/Basic-Algorithm/blob/master/DFS/376.Binary%20Tree%20Path%20Sum/BInary_Tree_Path_Sum.java) or Divide and Conquer to solve this problem.
 See
