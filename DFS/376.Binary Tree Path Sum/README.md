@@ -25,4 +25,4 @@ Return:
 ```
 ---
 
-Can use either DFS or Divide and Conquer to solve this problem.
+Can use either DFS or [Divide and Conquer](https://github.com/JakeMa2017/Basic-Algorithm/blob/master/Divide%20and%20Conquer/376.Binary%20Tree%20Path%20Sum/Binary_Tree_Path_Sum.java) to solve this problem.
