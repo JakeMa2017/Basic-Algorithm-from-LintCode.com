@@ -15,8 +15,6 @@ public class Search_Range_in_Binary_Search_Tree {
 
     public List<Integer> result;
     public List<Integer> searchRange(TreeNode root, int k1, int k2) {
-        // write your code here
-        
         // It's a ordered BST, so we can do it simple and violent
         result = new ArrayList<>();
         if (root == null) {

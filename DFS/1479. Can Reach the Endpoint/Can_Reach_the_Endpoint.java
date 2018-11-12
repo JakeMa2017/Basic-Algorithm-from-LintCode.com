@@ -21,7 +21,6 @@ public class Can_Reach_the_Endpoint {
     int[] xDir = {0, 1, -1 ,0};
     int[] yDir = {1, 0, 0, -1};
     public boolean reachEndpoint(int[][] map) {
-        // Write your code here
         if (map == null || map.length == 0 || map[0].length == 0) {
             return false;
         }
