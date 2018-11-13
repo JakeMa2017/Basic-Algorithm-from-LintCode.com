@@ -46,9 +46,9 @@ public class Sort_Integers_II {
             int right = parent * 2 + 2;
             int child = left; // Equal to left if there's only 1 child node
             
-            if (left <= end && right <= end) {
-                child = A[left] >= A[right] ? left : right;
-            } else if (left > end && right > end) { 
+            if (right <= end && A[right] >= A[left]) {
+                child = right;
+            } else if (left > end) { 
                 return;
             }
             
