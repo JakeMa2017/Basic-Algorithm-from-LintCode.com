@@ -1,5 +1,5 @@
-#Sort Integers
----
+# Sort Integers
+
 Given an integer array, sort it in ascending order. Use quick sort, merge sort, quick sort or any `O(nlogn)` algorithm.
 
 Example
