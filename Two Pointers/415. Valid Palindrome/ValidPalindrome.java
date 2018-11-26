@@ -1,11 +1,11 @@
 /**
- * Valid Parlindrome
+ * Valid Palindrome
  * Two Pointers
  * Jake Ma
  * 11-20-2018
  */
 
-public class ValidParlindrome {
+public class ValidPalindrome {
     /**
      * @param s: A string
      * @return: Whether the string is a valid palindrome
