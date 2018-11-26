@@ -1,3 +1,10 @@
+/**
+ * Josephus Problem
+ * Math OR Lined List
+ * Jake Ma
+ * 11-25-2018
+ */
+
 import java.util.LinkedList;
 
 class JosephusProblem {
