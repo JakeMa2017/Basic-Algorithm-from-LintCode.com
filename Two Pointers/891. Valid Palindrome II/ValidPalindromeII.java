@@ -21,17 +21,14 @@ public class ValidPalindromeII {
                 left++;
                 right--;
             }
-            if (left + 1 <= right && s.charAt(left + 1) == s.charAt(right)) {
-                return isPar(s, ++left, right);
-            } else if (right  - 1 >= left && s.charAt(right - 1) == s.charAt(left)) {
-                return isPar(s, left, --right);
-            }
+
+            return isPalin(s, left + 1, right) || isPalin(s, left, right - 1);
         }
         
         return true;
     }
     
-    private boolean isPar(String s, int start, int end) {
+    private boolean isPalin(String s, int start, int end) {
         int left = start, right = end;
         while (left < right) {
             if (s.charAt(left) != s.charAt(right)) {
