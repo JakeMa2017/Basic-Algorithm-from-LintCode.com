@@ -1,10 +1,15 @@
+/**
+ * Valid Palindrome II
+ * Two Pointers
+ * Jake Ma
+ * 11-25-2018
+ */
 public class ValidPalindromeII {
     /**
      * @param s: a string
      * @return: nothing
      */
     public boolean validPalindromeII(String s) {
-        // Write your code here
         if (s.length() == 0 || s == null) {
             return false;
         }
