@@ -1,6 +1,6 @@
 # Josephus Problem
 
-Given integer `n` and `m`, where n is the number of people and m is the number these people count. Counting starts from the first person. Whoever count to m is removed from the circle, and counting starts at `m + 1`. Find out the number of the last person remaining in the circle.
+Given integer `n` and `m`, where n is the number of people and m is the number these people will count to. Counting starts from the first person. Whoever count to m is removed from the circle, and counting starts at `m + 1`. Find out the number of the last person remaining in the circle.
 
 Example
 
