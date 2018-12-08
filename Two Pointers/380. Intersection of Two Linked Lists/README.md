@@ -16,11 +16,13 @@ begin to intersect at node c1.
 _Challenge_:  
 Your code should preferably run in `O(n)` time and use only `O(1)` memory.
 
-_Notice_:  
+Notice:  
 If the two linked lists have no intersection at all, return `null`.   
 The linked lists must retain their **original structure** after the function returns.  
 You may assume there are **no cycles** anywhere in the entire linked structure.  
+
 ---
+
 The first method is O(n) time and O(n) space using a HashSet. Easier to think and understand.
 
 The second method is a mathematics approach.
