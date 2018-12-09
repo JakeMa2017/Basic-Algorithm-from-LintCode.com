@@ -33,5 +33,6 @@ Each chunk contains 1 - 3 letters and there are no duplicates inside a chunk.
 ---
 牛客网海归在线笔试编程题第二题。  
 只会这种简单方法，单纯做出来就花了一个多小时。。。。  
+真·一首凉凉送给自己。。。。  
 ![pic1](./1.png)  
 ![pic2](./2.png)  
