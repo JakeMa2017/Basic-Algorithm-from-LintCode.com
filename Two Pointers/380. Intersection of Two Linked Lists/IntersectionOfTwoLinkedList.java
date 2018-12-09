@@ -1,3 +1,10 @@
+/**
+ * Intersection of Two Linked List
+ * Two Pointers
+ * Jake Ma
+ * 12-08-2018
+ */
+
 import java.util.HashSet;
 
 public class IntersectionOfTwoLinkedList {
