@@ -8,6 +8,7 @@ Some of them are from [nowcoder.com](https://www.nowcoder.com).
 1. BFS
 2. DFS
 3. Sorting
+3. Divide and Conquer
 4. Binary Tree
 5. Two Pointers
 6. Dynamic Programming
