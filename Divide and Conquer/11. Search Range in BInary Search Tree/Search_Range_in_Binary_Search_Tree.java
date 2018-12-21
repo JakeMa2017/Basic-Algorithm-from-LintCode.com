@@ -20,25 +20,25 @@ public class Search_Range_in_Binary_Search_Tree {
         if (root == null) {
             return result;
         }
-        helper(root, k1, k2, result);
+        //helper(root, k1, k2, result);
+        //return result;
+        
+        List<Integer> result = new ArrayList<>();
+        
+        if (root == null) {
+            return result;
+        }
+        if (root.val <= k2 && root.val >= k1) {
+            result.add(root.val);
+        }
+        
+        List<Integer> left = searchRange(root.left, k1, k2);
+        List<Integer> right = searchRange(root.right, k1, k2);
+        
+        result.addAll(left);
+        result.addAll(right);
+        
         return result;
-        
-        // List<Integer> result = new ArrayList<>();
-        
-        // if (root == null) {
-        //     return result;
-        // }
-        // if (root.val <= k2 && root.val >= k1) {
-        //     result.add(root.val);
-        // }
-        
-        // List<Integer> left = searchRange(root.left, k1, k2);
-        // List<Integer> right = searchRange(root.right, k1, k2);
-        
-        // result.addAll(left);
-        // result.addAll(right);
-        
-        // return result;
     }
     
     private void helper(TreeNode root, int k1, int k2, List<Integer> result) {
