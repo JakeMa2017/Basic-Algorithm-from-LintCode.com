@@ -46,7 +46,7 @@ public class BInary_Tree_Path_Sum {
             result.add(l);
         }
         for (List<Integer> r : right) {
-            r.add(0, root.va);
+            r.add(0, root.val);
             result.add(r);
         }
 
