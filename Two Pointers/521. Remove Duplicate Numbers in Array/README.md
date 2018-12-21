@@ -14,7 +14,7 @@ Example
 
 Given nums = `[1,3,1,4,4,2]`, you should:
 
-Move duplicate integers to the tail of nums => nums = `[1,3,4,2,?,?]`.
+Move duplicate integers to the tail of nums => nums = `[1,3,4,2,1,4]`.
 
 Return the number of unique integers in nums => `4`.
 
