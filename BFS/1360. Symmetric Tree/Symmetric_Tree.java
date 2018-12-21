@@ -5,7 +5,7 @@
  * 11-11-2018
  */
 
-public class Solution {
+public class SymmetricTree {
     /**
      * @param root: root of the given tree
      * @return: whether it is a mirror of itself 
