@@ -29,7 +29,7 @@ Mathematical Proof:
 2. Let `L` be the lenth of the ring.
 3. Let `p` be the distance between `head` and entrance node, `c` be the distance between entrance node and the node where `slow` and `fast` first met.
 4. Therefore, we have: `p + c = n` and `p + c + kL = 2n`, where `k = 1, 2, 3...`
-5. From 3, we have `L = n`, which gives us `p = L - c`.
+5. From 4, we have `L = n`, which gives us `p = L - c`.
 6. By the definition of `c`, `slow` will be at the entrance node after `L - c` steps, which equals to `p`.
 7. By the definition of `p`, if `head` starts moving 1 step each time, it will meet `slow` at the entrance node after `p` steps.
 
