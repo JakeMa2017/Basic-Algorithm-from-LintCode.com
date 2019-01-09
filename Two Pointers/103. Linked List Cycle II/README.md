@@ -32,4 +32,4 @@ Mathematical Proof:
 5. From 4, we have `L = n`, which gives us `p = L - c`.
 6. By the definition of `c`, `slow` will be at the entrance node after `L - c` steps, which equals to `p`.
 7. By the definition of `p`, if `head` starts moving 1 step each time, it will meet `slow` at the entrance node after `p` steps.
-
+8. Therefore, the node where `head` and `slow` meet each other is the entrance node (starting node of the ring), as desired.
