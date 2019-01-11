@@ -11,3 +11,11 @@ Return `true`
 
 Given `n = 2`, prerequisites = `[[1,0],[0,1]]`  
 Return `false`
+
+---
+
+### Topological Soring
+
+Two Arrays:  
+One for the edges, to record every connected node.  
+One for the indegree of every node.
