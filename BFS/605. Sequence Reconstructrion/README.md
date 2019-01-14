@@ -19,3 +19,26 @@ The sequences `[1,2]`, `[1,3]`, and `[2,3]` can uniquely reconstruct the origina
 
 Given `org` = `[4,1,5,2,6,3]`, `seqs` = `[[5,2,6,3],[4,1,5,2]]`  
 Return `true`
+
+---
+
+The ERROR DETECTION in this problem is **NIGHTMARE**
+
+Couple test cases:
+```
+[]
+[[]]
+
+[]
+[[], []]
+
+[5, 4, 3, 2, 1]
+[[5, 4, 3, 2], [2, 1], [1], [3], [1000000], [1, 1000000]]
+```
+
+### Still a topological sorting problem
+
+Use a `HashMap<Integer, Set<Integer>>` to store this map. `Set` is for duplicates removing.  
+An integer array to store in degree.
+
+Since this problem wants to find one and only one sequence, we use `queue.size() == 1` as the exit of the `while` loop.
