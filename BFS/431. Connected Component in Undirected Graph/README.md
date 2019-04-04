@@ -29,5 +29,5 @@ Explanation:
   1--2
 ```
 
-### SNotice
+### Notice
 Nodes in a connected component should sort by label in ascending order. Different connected components can be in any order.
