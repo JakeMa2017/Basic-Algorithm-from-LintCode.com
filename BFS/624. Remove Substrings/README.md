@@ -9,6 +9,7 @@ Input:
 
 Output:  
 `2`  
+
 Explanation:  
 `"ccdaabcdbb"` -> `"ccdacdbb"` -> `"cabb"` -> `"cb"` (length = `2`)
 
@@ -20,5 +21,6 @@ Input:
 
 Output:  
 `0`  
-Explanation: 
+
+Explanation:  
 `"abcabd"` -> `"abcd"` -> `""` (length = `0`)
