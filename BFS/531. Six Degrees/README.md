@@ -7,7 +7,7 @@ Given a friendship relations, find the degrees of two people, return `-1` if the
 ### Example1
 
 Input: `{1,2,3#2,1,4#3,1,4#4,2,3}` and `s = 1`, `t = 4`   
-Output: `2`
+Output: `2`  
 Explanation:
 ```
     1------2-----4
