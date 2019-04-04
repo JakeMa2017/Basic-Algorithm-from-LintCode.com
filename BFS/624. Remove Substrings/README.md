@@ -3,7 +3,7 @@ Given a string s and a set of n substrings. You are supposed to remove every ins
 
 ### Example 1:
 
-Input:
+Input:  
 `"ccdaabcdbb"`  
 `["ab","cd"]`
 
@@ -14,7 +14,7 @@ Explanation:
 
 ### Example 2:
 
-Input:
+Input:  
 `"abcabd"`  
 `["ab","abcd"]`
 
