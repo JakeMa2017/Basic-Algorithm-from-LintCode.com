@@ -17,7 +17,7 @@
  */
 
 
-public class Solution {
+public class SixDegrees {
     /*
      * @param graph: a list of Undirected graph node
      * @param s: Undirected graph node

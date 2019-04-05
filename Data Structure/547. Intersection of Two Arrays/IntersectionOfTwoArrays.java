@@ -5,7 +5,7 @@
  * 4/3/2019
  */
 
-public class Solution {
+public class IntersectionOfTwoArrays {
     /**
      * @param nums1: an integer array
      * @param nums2: an integer array

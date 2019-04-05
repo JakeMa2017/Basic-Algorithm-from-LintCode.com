@@ -14,7 +14,7 @@
  */
 
 
-public class Solution {
+public class ConnectedComponentInUndirectedGraph {
     /*
      * @param nodes: a array of Undirected graph node
      * @return: a connected set of a Undirected graph
