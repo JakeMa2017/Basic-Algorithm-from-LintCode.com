@@ -45,4 +45,4 @@ Remember to take into account that in some cases there may be a decrease in the 
 Input: `n = 2`, `m = 2`, `A = [[[0,0],[1,1],[1,0],[0,1]]`  
 Output: `[1, 2, 1, 1]`  
 
-From this example we can see that in the thid input operator, the number of islands has decreased.
+From this example we can see that in the third input operator, the number of islands has decreased.
