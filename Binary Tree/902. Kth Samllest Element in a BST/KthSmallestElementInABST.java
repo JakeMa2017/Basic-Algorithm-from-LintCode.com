@@ -3,16 +3,6 @@
  * Kth Smallest Element in a Binary Tree
  * BST
  * 4/8/2019
- * 
- * Definition of TreeNode:
- * public class TreeNode {
- *     public int val;
- *     public TreeNode left, right;
- *     public TreeNode(int val) {
- *         this.val = val;
- *         this.left = this.right = null;
- *     }
- * }
  */
 
 public class KthSmallestElementInABST {
@@ -23,6 +13,14 @@ public class KthSmallestElementInABST {
      */
     private int result = 0;
     private int count = 0;
+    class TreeNode {
+        public int val;
+        public TreeNode left, right;
+        public TreeNode(int val) {
+            this.val = val;
+            this.left = this.right = null;
+        }
+    }
     
     public int kthSmallest(TreeNode root, int k) {
         if (root == null) {
