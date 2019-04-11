@@ -5,7 +5,7 @@
  * 4/11/2019
  */
 
-public class Solution {
+public class SplitString {
     /*
      * @param : a string to be split
      * @return: all possible split string array
