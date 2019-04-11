@@ -38,3 +38,11 @@ public class SplitString {
         }
     }
 }
+/**
+ * Couple example outputs (in the exact order) from this DFS
+ * Input: "123"
+ * Output: [1, 2, 3], [1, 23], [12, 3]
+ * 
+ * Input: "1234"
+ * Output: [1, 2, 3, 4], [1, 2, 34], [1, 23, 4], [12, 3, 4], [12, 34]
+ */
