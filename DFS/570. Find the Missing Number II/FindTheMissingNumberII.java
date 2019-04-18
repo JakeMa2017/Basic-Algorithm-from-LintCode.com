@@ -1,3 +1,10 @@
+/**
+ * Jake Ma
+ * Find the Missing Number II
+ * DFS
+ * 4/18/2019
+ */
+
 public class FindTheMissingNumberII {
     /**
      * @param n: An integer
