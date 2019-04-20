@@ -1,3 +1,10 @@
+/**
+ * Jake Ma
+ * Word Break
+ * DP
+ * 4/20/2019
+ */
+
 public class WordBreak {
     /*
      * @param s: A string
