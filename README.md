@@ -1,6 +1,6 @@
 # Basic-Algorithm
 
-Some basic Algorithm problems
+Some basic (Easy-Medium level) Algorithm problems
 
 Most of the problems are from [lintcode.com](https://www.lintcode.com).  
 Some of them are from [nowcoder.com](https://www.nowcoder.com).
