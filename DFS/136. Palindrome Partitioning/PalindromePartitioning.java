@@ -1,3 +1,10 @@
+/**
+ * Jake Ma
+ * Palindrome Partitioning
+ * DFS
+ * 4/26/2019
+ */
+
 public class PalindromePartitioning {
     /*
      * @param s: A string
