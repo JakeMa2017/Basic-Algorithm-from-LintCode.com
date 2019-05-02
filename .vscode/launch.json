@@ -2,6 +2,18 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Test",
+            "request": "launch",
+            "mainClass": "Test"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Driver",
+            "request": "launch",
+            "mainClass": "Driver"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - ThreeCharCombination",
             "request": "launch",
             "cwd": "${workspaceFolder}",

@@ -5,7 +5,7 @@
  * 4/27/2019
  */
 
-public class PalindromePartitioning {
+public class PalindromePartitioningII {
     /**
      * @param s: A string
      * @return: An integer

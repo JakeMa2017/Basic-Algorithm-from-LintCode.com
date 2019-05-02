@@ -18,7 +18,7 @@
  * }
  */
 
-public class Solution {
+public class LinkedListCycleII {
     /**
      * @param head: The first node of linked list.
      * @return: The node where the cycle begins. if there is no cycle, return null
