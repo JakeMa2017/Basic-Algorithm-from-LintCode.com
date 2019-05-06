@@ -31,6 +31,7 @@ public class StringPermutationII {
         }
         
         for (int i = 0; i < c.length; i++) {
+            // if has two adjacent same character and the former one is not visited, it would cause duplicate.
             if (visited[i] || (i > 0 && c[i] == c[i - 1] && visited[i - 1] == false)) {
                 continue;
             }
