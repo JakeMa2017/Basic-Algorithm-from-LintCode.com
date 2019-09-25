@@ -1,12 +1,12 @@
-### 1165. Subtree of Another Tree
+# 1165. Subtree of Another Tree
 
-**Amazon Sep OA**
+## Amazon Sep OA
 
 Given two non-empty binary trees `s` and `t`, check whether tree `t` has exactly the same structure and node values with a subtree of `s`. A subtree of `s` is a tree consists of a node in `s` and all of this node's descendants. The tree `s` could also be considered as a subtree of itself.
 
 ## Example
 
-# Example 1:
+Example 1:
 
 Given tree `s`:
 ```
