@@ -1,3 +1,4 @@
+
 /**
  * Josephus Problem
  * Math OR Lined List
@@ -43,5 +44,9 @@ class JosephusProblem {
         }
         // since the labels start from 1
         return list.get(index) + 1;
+    }
+
+    public int oneLine(int n, int m) {
+        return n == 1 ? n : ((oneLine(n - 1, m) + m) % n) + 1;
     }
 }
